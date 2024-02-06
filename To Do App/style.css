@@ -1,0 +1,37 @@
+
+body{
+  display: grid;
+   place-items: center;
+}
+
+.todo-container, .grid-container{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  gap: 15px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+input{
+  padding: 10px;
+  font-size: 15px;
+}
+
+.add-btn, .delete-btn{
+  padding: 10px 13px;
+  background-color: rgb(189, 16, 16);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.add-btn{
+  background-color: rgb(22, 157, 22);
+}
+
+.todo-container span{
+  font-size: 20px;
+}
