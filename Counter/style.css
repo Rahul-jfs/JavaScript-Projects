@@ -1,0 +1,27 @@
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.value{ 
+  font-size: 50px;
+  color: #333;
+}
+
+.btn{
+  padding: 10px 14px;
+  font-size: 20px;
+  border: 2px solid #323232;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+}

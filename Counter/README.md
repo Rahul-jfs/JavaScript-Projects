@@ -1,0 +1,1 @@
+When the Increase button is clicked, the counter value increases and for decrease button it decreases the value and rest button resets the value to zero. It also changes the color based on the positive and negative number.
